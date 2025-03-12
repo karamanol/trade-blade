@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-layout-dark: #030718;
+  --color-layout-white: #ffffff;
+  --color-layout-purple: #6a54ff;
+  --color-sky-blue: #57e1ff;
+}
+
+:root {
+  font-family: "IBM Plex Sans", sans-serif;
+}
