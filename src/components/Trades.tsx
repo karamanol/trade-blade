@@ -18,7 +18,7 @@ function Trades() {
         </div>
       </div>
 
-      <div className="mt-[24px] flex gap-[8px] min-[900px]:gap-[20px] overflow-x-scroll pb-[16px] mb-[53px] min-[900px]:mb-[118px]">
+      <div className="mt-[24px] flex gap-[8px] min-[900px]:gap-[20px] overflow-x-auto pb-[16px] mb-[53px] min-[900px]:mb-[118px]">
         {cardsData.map((card) => (
           <Card card={card} />
         ))}

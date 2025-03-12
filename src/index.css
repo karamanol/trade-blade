@@ -10,3 +10,25 @@
 :root {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track:horizontal {
+  background: #1d243b;
+  @apply rounded-full;
+}
+::-webkit-scrollbar-track:vertical {
+  background: #030718;
+}
+/* Handle */
+::-webkit-scrollbar-thumb:vertical {
+  background: #d6d6d6;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: #6073a1;
+  border-radius: 5px;
+}
